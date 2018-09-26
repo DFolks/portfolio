@@ -1,4 +1,6 @@
 import React from 'react';
+import CoDApp from './img/CoDApp.jpg';
+import BookmarkApp from './img/BookmarkApp.png';
 
 export default class App extends React.Component {
   render() {
@@ -9,8 +11,8 @@ export default class App extends React.Component {
           <h3>Software Developer</h3>
           <p>
             I am an ambitious developer who builds creative and simple
-            solutions, interactive web applications, and intuitive and
-            responsive UI/UX.
+            solutions, interactive web applications with a focus on
+            functionality and testability.
           </p>
         </section>
         <section>
@@ -46,14 +48,54 @@ export default class App extends React.Component {
                 being clickable to open an input for the new data. This project
                 is ongoing with new features planned for and being added.
               </p>
+              <p>
+                Click{' '}
+                <a href="https://github.com/DFolks/cod-character-client">
+                  here
+                </a>{' '}
+                to view the Github repository for the front-end. Or{' '}
+                <a href="https://github.com/DFolks/cod-character-server">
+                  here
+                </a>{' '}
+                for the back-end
+              </p>
               <a href="https://cod-characters-client.herokuapp.com/">
                 <img
-                  src="./img/CoDApp.jpg"
-                  alt="screenshot of CoD Character App"
+                  src={CoDApp}
+                  alt="CoD Character App"
                   height="200"
                   width="400"
                 />
               </a>
+              <p>
+                {' '}
+                Skill set: Javascript, React, redux-form, MongoDB, mongoose,
+                node.js, RESTful APIs, express, jwt, passport.js, bcrypt
+              </p>
+            </li>
+            <li>
+              <h4>Bookmark App</h4>
+              <p>
+                This bookmark app is designed to bookmark web pages while
+                assigning them a rating and a description to help other viewers
+                decide which sites are worth visiting.
+              </p>
+              <p>
+                Click{' '}
+                <a href="https://github.com/thinkful-ei23/DavidF-bookmarks-app">
+                  here
+                </a>{' '}
+                to view the Github repository.
+              </p>
+              <a href="https://thinkful-ei23.github.io/DavidF-bookmarks-app/">
+                <img
+                  src={BookmarkApp}
+                  alt="Bookmark App"
+                  height="200"
+                  width="150"
+                />
+              </a>
+              <p> Skill set: Javascript, jQuery, RESTful APIs</p>
             </li>
           </ul>
         </section>
