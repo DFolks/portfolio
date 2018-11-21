@@ -1,6 +1,8 @@
 import React from 'react';
 import CoDApp from './img/CoDApp.jpg';
 import BookmarkApp from './img/BookmarkApp.png';
+import GoSeeThis from './img/GoSeeThis.jpg';
+import SpanishApp from './img/SpanishApp.png';
 
 import './app.css';
 
@@ -45,6 +47,43 @@ export default class App extends React.Component {
           <section id="projects" className="section1">
             <h2>Projects:</h2>
             <ul>
+              <li>
+                <h4>Go See This</h4>
+                <p>
+                  This app was created for movie and film buffs to share
+                  recommendations for movies they enjoy with others without the
+                  negativity that comes with similar sites. There is no rating
+                  system, instead just offering users the ability to read or
+                  leave reasons why they would recommend particular movie. If a
+                  user finds another person with similar tastes they can follow
+                  them to get a filtered list of recommendations only from those
+                  people they follow.
+                </p>
+                <p>
+                  Click{' '}
+                  <a href="https://github.com/thinkful-ei23/GoSeeThis-Client">
+                    here
+                  </a>{' '}
+                  to view the Github repository for the front-end. Or{' '}
+                  <a href="https://github.com/thinkful-ei23/GoSeeThis-server">
+                    here
+                  </a>{' '}
+                  for the back-end
+                </p>
+                <a href="https://goseethis-client.herokuapp.com/">
+                  <img
+                    src={GoSeeThis}
+                    alt="Go See This"
+                    height="auto"
+                    width="50%"
+                  />
+                </a>
+                <p>
+                  {' '}
+                  Skill set: Javascript, React/Redux, RESTful APIs,
+                  Mongo/Mongoose, Bcrypt/Passport, JsonWebTokens, React-tabs
+                </p>
+              </li>
               <li>
                 <h4>Chronicles of Darkness Character App</h4>
                 <p>
@@ -106,6 +145,38 @@ export default class App extends React.Component {
                 </a>
                 <p> Skill set: Javascript, jQuery, RESTful APIs</p>
               </li>
+              <li>
+                <h4>Spanish App</h4>
+                <p>
+                  This is an app to help learn Spanish that utilizes a spaced
+                  repetition algorithm and a linked list data structure to
+                  repeat words that the user struggles with more often.
+                </p>
+                <p>
+                  Click{' '}
+                  <a href="https://github.com/thinkful-ei23/Spanish-Client-Alex-David">
+                    here
+                  </a>{' '}
+                  to view the Github repository for the front-end. Or{' '}
+                  <a href="https://github.com/thinkful-ei23/Spanish-Server-Alex-DavidF">
+                    here
+                  </a>{' '}
+                  for the back-end
+                </p>
+                <a href="https://spanish-app-client.herokuapp.com/">
+                  <img
+                    src={SpanishApp}
+                    alt="Spanish App"
+                    height="auto"
+                    width="50%"
+                  />
+                </a>
+                <p>
+                  {' '}
+                  Skill set: Javascript, Node.js, RESTful APIs, React, Redux,
+                  Express, Mongo/Mongoose, Bcrypt/Passport, Responsivevoice.org
+                </p>
+              </li>
             </ul>
           </section>
           <section id="skills" className="section2">
@@ -120,6 +191,7 @@ export default class App extends React.Component {
                   <li>jQuery</li>
                   <li>ES6</li>
                   <li>React</li>
+                  <li>Redux</li>
                 </ul>
                 <p>
                   I can build and style an interactive, responsive webpage or
