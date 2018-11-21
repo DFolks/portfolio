@@ -75,7 +75,7 @@ export default class App extends React.Component {
                     src={GoSeeThis}
                     alt="Go See This"
                     height="auto"
-                    width="50%"
+                    width="75%"
                   />
                 </a>
                 <p>
@@ -112,7 +112,7 @@ export default class App extends React.Component {
                     src={CoDApp}
                     alt="CoD Character App"
                     height="auto"
-                    width="100%"
+                    width="75%"
                   />
                 </a>
                 <p>
@@ -140,7 +140,7 @@ export default class App extends React.Component {
                     src={BookmarkApp}
                     alt="Bookmark App"
                     height="auto"
-                    width="50%"
+                    width="75%"
                   />
                 </a>
                 <p> Skill set: Javascript, jQuery, RESTful APIs</p>
@@ -168,7 +168,7 @@ export default class App extends React.Component {
                     src={SpanishApp}
                     alt="Spanish App"
                     height="auto"
-                    width="50%"
+                    width="75%"
                   />
                 </a>
                 <p>
