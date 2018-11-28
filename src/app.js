@@ -57,7 +57,8 @@ export default class App extends React.Component {
                   leave reasons why they would recommend particular movie. If a
                   user finds another person with similar tastes they can follow
                   them to get a filtered list of recommendations only from those
-                  people they follow.
+                  people they follow. A Demo user is available with username,
+                  'DemoUser', and password, 'password12'.
                 </p>
                 <p>
                   Click{' '}
@@ -126,7 +127,9 @@ export default class App extends React.Component {
                 <p>
                   This bookmark app is designed to bookmark web pages while
                   assigning them a rating and a description to help other
-                  viewers decide which sites are worth visiting.
+                  viewers decide which sites are worth visiting. It is open to all 
+                  visitors, not requiring a log-in. It is primarily shown here to 
+                  demonstrate understanding of jQuery.
                 </p>
                 <p>
                   Click{' '}
@@ -150,7 +153,9 @@ export default class App extends React.Component {
                 <p>
                   This is an app to help learn Spanish that utilizes a spaced
                   repetition algorithm and a linked list data structure to
-                  repeat words that the user struggles with more often.
+                  repeat words that the user struggles with more often. There is
+                  a demo account available for the site. Username: DemoUser, and
+                  password: password12.
                 </p>
                 <p>
                   Click{' '}
