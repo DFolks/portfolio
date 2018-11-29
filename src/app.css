@@ -33,9 +33,6 @@ section {
 }
 
 #intro {
-  /* background: url(https://images.unsplash.com/photo-1484665739383-a1069a82d4be?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=66ef5f627b4b8d5d19599ac44c2577b4&auto=format&fit=crop&w=500&q=60);
-  background-repeat: no-repeat;
-  background-size: cover; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -49,16 +46,18 @@ section {
 }
 
 #contact {
-  /* background: url(https://images.unsplash.com/photo-1531901587543-26d76c1e918c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=eabae348f95beb15594bf1285dbeb265&auto=format&fit=crop&w=500&q=60);
-  background-repeat: no-repeat;
-  background-size: cover; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
   background-image: linear-gradient(to top right, black, #989898);
 }
 
 #projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   background-image: linear-gradient(to bottom right, black, #989898);
 }
 
@@ -71,11 +70,14 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px white solid;
   }
+
   .project-image {
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin-top: 20px;
   }
 
   .project-text {
@@ -92,9 +94,8 @@ section {
 }
 
 #skills {
-  /* background: url(https://images.unsplash.com/photo-1525373698358-041e3a460346?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4051df9e2f82d0f19d2df4eb6dbe7711&auto=format&fit=crop&w=500&q=60);
-  background-repeat: no-repeat;
-  background-size: cover; */
+  padding-left: 50px;
+  padding-right: 50px;
   background-image: linear-gradient(to top right, black, #989898);
 }
 
@@ -103,13 +104,12 @@ section {
 }
 
 #about {
-  /* background: url(https://images.unsplash.com/photo-1503437313881-503a91226402?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bca2bcbec1d66e31fb38da5681cf83d9&auto=format&fit=crop&w=500&q=60);
-  background-repeat: no-repeat;
-  background-size: cover; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
   background-image: linear-gradient(to bottom right, black, #989898);
 }
 
