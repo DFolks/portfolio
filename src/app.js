@@ -3,6 +3,7 @@ import CoDApp from './img/CoDApp.jpg';
 import BookmarkApp from './img/BookmarkApp.png';
 import GoSeeThis from './img/GoSeeThis.jpg';
 import SpanishApp from './img/SpanishApp.png';
+import { SocialIcon } from 'react-social-icons';
 
 import './app.css';
 
@@ -19,35 +20,19 @@ export default class App extends React.Component {
               solutions, interactive web applications with a focus on
               functionality and testability.
             </p>
-          </section>
-          <section id="contact" className="section2">
-            <h2>Contact Information:</h2>
-            <p>
-              Email:
-              <a href="mailto:aldwyn.wot@gmail.com" className="contact-link">
-                aldwyn.wot@gmail.com
-              </a>
-            </p>
-            <p>
-              Github:
-              <a href="https://github.com/DFolks" className="contact-link">
-                https://github.com/DFolks
-              </a>
-            </p>
-            <p>
-              LinkedIn:
-              <a
-                href="https://www.linkedin.com/in/david-folks-98657155"
-                className="contact-link"
-              >
-                https://www.linkedin.com/in/david-folks-98657155
-              </a>
-            </p>
+            <div className="contact-info">
+              <SocialIcon url="mailto:aldwyn.wot@gmail.com" color="white" />
+              <SocialIcon url="https://github.com/DFolks" color="white" />
+              <SocialIcon
+                url="https://www.linkedin.com/in/david-folks-98657155"
+                color="white"
+              />
+            </div>
           </section>
           <section id="projects" className="section1">
             <h2>Projects:</h2>
             <ul>
-              <li>
+              <li className="border-bottom">
                 <div className="project-text">
                   <h4>Go See This</h4>
                   <p>

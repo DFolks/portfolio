@@ -37,7 +37,7 @@ section {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-image: linear-gradient(to bottom right, black, #989898);
+  background-image: linear-gradient(to top right, black, #989898);
 }
 
 #intro > p {
@@ -45,12 +45,13 @@ section {
   text-align: center;
 }
 
-#contact {
+.contact-info {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  background-image: linear-gradient(to top right, black, #989898);
+}
+
+.contact-info > a {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 #projects {
