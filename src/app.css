@@ -65,12 +65,16 @@ section {
   list-style-type: none;
 }
 
+#projects > ul > li {
+  border-bottom: 1px white solid;
+  margin-right: 20px;
+}
+
 @media only screen and (min-width: 600px) {
   #projects > ul > li {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px white solid;
   }
 
   .project-image {

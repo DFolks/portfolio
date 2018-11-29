@@ -34,7 +34,7 @@ export default class App extends React.Component {
             <ul>
               <li className="border-bottom">
                 <div className="project-text">
-                  <h4>Go See This</h4>
+                  <h3>Go See This</h3>
                   <p>
                     This app was created for movie and film buffs to share
                     recommendations for movies they enjoy with others without
@@ -77,7 +77,7 @@ export default class App extends React.Component {
               </li>
               <li>
                 <div className="project-text">
-                  <h4>Chronicles of Darkness Character App</h4>
+                  <h3>Chronicles of Darkness Character App</h3>
                   <p>
                     CoD Character App is a creation, editable storage app for
                     creating and storing characters for the Chronicles of
@@ -118,7 +118,7 @@ export default class App extends React.Component {
               </li>
               <li>
                 <div className="project-text">
-                  <h4>Bookmark App</h4>
+                  <h3>Bookmark App</h3>
                   <p>
                     This bookmark app is designed to bookmark web pages while
                     assigning them a rating and a description to help other
@@ -148,7 +148,7 @@ export default class App extends React.Component {
               </li>
               <li>
                 <div className="project-text">
-                  <h4>Spanish App</h4>
+                  <h3>Spanish App</h3>
                   <p>
                     This is an app to help learn Spanish that utilizes a spaced
                     repetition algorithm and a linked list data structure to
