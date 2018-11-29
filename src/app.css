@@ -43,6 +43,8 @@ section {
 #intro > p {
   max-width: 600px;
   text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .contact-info {
@@ -105,6 +107,7 @@ section {
 
 #skills > ul {
   list-style-type: none;
+  margin-left: -40px;
 }
 
 #about {
