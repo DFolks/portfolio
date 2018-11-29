@@ -21,11 +21,23 @@ export default class App extends React.Component {
               functionality and testability.
             </p>
             <div className="contact-info">
-              <SocialIcon url="mailto:aldwyn.wot@gmail.com" color="white" />
-              <SocialIcon url="https://github.com/DFolks" color="white" />
+              <SocialIcon
+                url="mailto:aldwyn.wot@gmail.com"
+                color="white"
+                rel="noopener noreferrer"
+                target="_blank"
+              />
+              <SocialIcon
+                url="https://github.com/DFolks"
+                color="white"
+                rel="noopener noreferrer"
+                target="_blank"
+              />
               <SocialIcon
                 url="https://www.linkedin.com/in/david-folks-98657155"
                 color="white"
+                rel="noopener noreferrer"
+                target="_blank"
               />
             </div>
           </section>
@@ -49,18 +61,30 @@ export default class App extends React.Component {
                   </p>
                   <p>
                     Click{' '}
-                    <a href="https://github.com/thinkful-ei23/GoSeeThis-Client">
+                    <a
+                      href="https://github.com/thinkful-ei23/GoSeeThis-Client"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       here
                     </a>{' '}
                     to view the Github repository for the front-end. Or{' '}
-                    <a href="https://github.com/thinkful-ei23/GoSeeThis-server">
+                    <a
+                      href="https://github.com/thinkful-ei23/GoSeeThis-server"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       here
                     </a>{' '}
                     for the back-end
                   </p>
                 </div>
                 <div className="project-image">
-                  <a href="https://goseethis-client.herokuapp.com/">
+                  <a
+                    href="https://goseethis-client.herokuapp.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
                     <img
                       src={GoSeeThis}
                       alt="Go See This"
@@ -90,18 +114,30 @@ export default class App extends React.Component {
                   </p>
                   <p>
                     Click{' '}
-                    <a href="https://github.com/DFolks/cod-character-client">
+                    <a
+                      href="https://github.com/DFolks/cod-character-client"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       here
                     </a>{' '}
                     to view the Github repository for the front-end. Or{' '}
-                    <a href="https://github.com/DFolks/cod-character-server">
+                    <a
+                      href="https://github.com/DFolks/cod-character-server"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       here
                     </a>{' '}
                     for the back-end
                   </p>
                 </div>
                 <div className="project-image">
-                  <a href="https://cod-characters-client.herokuapp.com/">
+                  <a
+                    href="https://cod-characters-client.herokuapp.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
                     <img
                       src={CoDApp}
                       alt="CoD Character App"
@@ -128,14 +164,22 @@ export default class App extends React.Component {
                   </p>
                   <p>
                     Click{' '}
-                    <a href="https://github.com/thinkful-ei23/DavidF-bookmarks-app">
+                    <a
+                      href="https://github.com/thinkful-ei23/DavidF-bookmarks-app"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       here
                     </a>{' '}
                     to view the Github repository.
                   </p>
                 </div>
                 <div className="project-image">
-                  <a href="https://thinkful-ei23.github.io/DavidF-bookmarks-app/">
+                  <a
+                    href="https://thinkful-ei23.github.io/DavidF-bookmarks-app/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
                     <img
                       src={BookmarkApp}
                       alt="Bookmark App"
@@ -158,18 +202,30 @@ export default class App extends React.Component {
                   </p>
                   <p>
                     Click{' '}
-                    <a href="https://github.com/thinkful-ei23/Spanish-Client-Alex-David">
+                    <a
+                      href="https://github.com/thinkful-ei23/Spanish-Client-Alex-David"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       here
                     </a>{' '}
                     to view the Github repository for the front-end. Or{' '}
-                    <a href="https://github.com/thinkful-ei23/Spanish-Server-Alex-DavidF">
+                    <a
+                      href="https://github.com/thinkful-ei23/Spanish-Server-Alex-DavidF"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       here
                     </a>{' '}
                     for the back-end
                   </p>
                 </div>
                 <div className="project-image">
-                  <a href="https://spanish-app-client.herokuapp.com/">
+                  <a
+                    href="https://spanish-app-client.herokuapp.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
                     <img
                       src={SpanishApp}
                       alt="Spanish App"
