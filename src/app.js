@@ -48,139 +48,157 @@ export default class App extends React.Component {
             <h2>Projects:</h2>
             <ul>
               <li>
-                <h4>Go See This</h4>
-                <p>
-                  This app was created for movie and film buffs to share
-                  recommendations for movies they enjoy with others without the
-                  negativity that comes with similar sites. There is no rating
-                  system, instead just offering users the ability to read or
-                  leave reasons why they would recommend particular movie. If a
-                  user finds another person with similar tastes they can follow
-                  them to get a filtered list of recommendations only from those
-                  people they follow. A Demo user is available with username,
-                  'DemoUser', and password, 'password12'.
-                </p>
-                <p>
-                  Click{' '}
-                  <a href="https://github.com/thinkful-ei23/GoSeeThis-Client">
-                    here
-                  </a>{' '}
-                  to view the Github repository for the front-end. Or{' '}
-                  <a href="https://github.com/thinkful-ei23/GoSeeThis-server">
-                    here
-                  </a>{' '}
-                  for the back-end
-                </p>
-                <a href="https://goseethis-client.herokuapp.com/">
-                  <img
-                    src={GoSeeThis}
-                    alt="Go See This"
-                    height="auto"
-                    width="75%"
-                  />
-                </a>
-                <p>
-                  {' '}
-                  Skill set: Javascript, React/Redux, RESTful APIs,
-                  Mongo/Mongoose, Bcrypt/Passport, JsonWebTokens, React-tabs
-                </p>
+                <div className="project-text">
+                  <h4>Go See This</h4>
+                  <p>
+                    This app was created for movie and film buffs to share
+                    recommendations for movies they enjoy with others without
+                    the negativity that comes with similar sites. There is no
+                    rating system, instead just offering users the ability to
+                    read or leave reasons why they would recommend particular
+                    movie. If a user finds another person with similar tastes
+                    they can follow them to get a filtered list of
+                    recommendations only from those people they follow. A Demo
+                    user is available with username, 'DemoUser', and password,
+                    'password12'.
+                  </p>
+                  <p>
+                    Click{' '}
+                    <a href="https://github.com/thinkful-ei23/GoSeeThis-Client">
+                      here
+                    </a>{' '}
+                    to view the Github repository for the front-end. Or{' '}
+                    <a href="https://github.com/thinkful-ei23/GoSeeThis-server">
+                      here
+                    </a>{' '}
+                    for the back-end
+                  </p>
+                </div>
+                <div className="project-image">
+                  <a href="https://goseethis-client.herokuapp.com/">
+                    <img
+                      src={GoSeeThis}
+                      alt="Go See This"
+                      height="auto"
+                      width="75%"
+                    />
+                  </a>
+                  <p>
+                    {' '}
+                    Skill set: Javascript, React/Redux, RESTful APIs,
+                    Mongo/Mongoose, Bcrypt/Passport, JsonWebTokens, React-tabs
+                  </p>
+                </div>
               </li>
               <li>
-                <h4>Chronicles of Darkness Character App</h4>
-                <p>
-                  CoD Character App is a creation, editable storage app for
-                  creating and storing characters for the Chronicles of Darkness
-                  tabletop roleplaying game. It combines forms (using
-                  redux-form) to make a simple, easy-to-use way for people to
-                  generate their character data. The data is easily editable
-                  with each field being clickable to open an input for the new
-                  data. This project is ongoing with new features planned for
-                  and being added.
-                </p>
-                <p>
-                  Click{' '}
-                  <a href="https://github.com/DFolks/cod-character-client">
-                    here
-                  </a>{' '}
-                  to view the Github repository for the front-end. Or{' '}
-                  <a href="https://github.com/DFolks/cod-character-server">
-                    here
-                  </a>{' '}
-                  for the back-end
-                </p>
-                <a href="https://cod-characters-client.herokuapp.com/">
-                  <img
-                    src={CoDApp}
-                    alt="CoD Character App"
-                    height="auto"
-                    width="75%"
-                  />
-                </a>
-                <p>
-                  {' '}
-                  Skill set: Javascript, React, redux-form, MongoDB, mongoose,
-                  node.js, RESTful APIs, express, jwt, passport.js, bcrypt
-                </p>
+                <div className="project-text">
+                  <h4>Chronicles of Darkness Character App</h4>
+                  <p>
+                    CoD Character App is a creation, editable storage app for
+                    creating and storing characters for the Chronicles of
+                    Darkness tabletop roleplaying game. It combines forms (using
+                    redux-form) to make a simple, easy-to-use way for people to
+                    generate their character data. The data is easily editable
+                    with each field being clickable to open an input for the new
+                    data. This project is ongoing with new features planned for
+                    and being added.
+                  </p>
+                  <p>
+                    Click{' '}
+                    <a href="https://github.com/DFolks/cod-character-client">
+                      here
+                    </a>{' '}
+                    to view the Github repository for the front-end. Or{' '}
+                    <a href="https://github.com/DFolks/cod-character-server">
+                      here
+                    </a>{' '}
+                    for the back-end
+                  </p>
+                </div>
+                <div className="project-image">
+                  <a href="https://cod-characters-client.herokuapp.com/">
+                    <img
+                      src={CoDApp}
+                      alt="CoD Character App"
+                      height="auto"
+                      width="75%"
+                    />
+                  </a>
+                  <p>
+                    {' '}
+                    Skill set: Javascript, React, redux-form, MongoDB, mongoose,
+                    node.js, RESTful APIs, express, jwt, passport.js, bcrypt
+                  </p>
+                </div>
               </li>
               <li>
-                <h4>Bookmark App</h4>
-                <p>
-                  This bookmark app is designed to bookmark web pages while
-                  assigning them a rating and a description to help other
-                  viewers decide which sites are worth visiting. It is open to all 
-                  visitors, not requiring a log-in. It is primarily shown here to 
-                  demonstrate understanding of jQuery.
-                </p>
-                <p>
-                  Click{' '}
-                  <a href="https://github.com/thinkful-ei23/DavidF-bookmarks-app">
-                    here
-                  </a>{' '}
-                  to view the Github repository.
-                </p>
-                <a href="https://thinkful-ei23.github.io/DavidF-bookmarks-app/">
-                  <img
-                    src={BookmarkApp}
-                    alt="Bookmark App"
-                    height="auto"
-                    width="75%"
-                  />
-                </a>
-                <p> Skill set: Javascript, jQuery, RESTful APIs</p>
+                <div className="project-text">
+                  <h4>Bookmark App</h4>
+                  <p>
+                    This bookmark app is designed to bookmark web pages while
+                    assigning them a rating and a description to help other
+                    viewers decide which sites are worth visiting. It is open to
+                    all visitors, not requiring a log-in. It is primarily shown
+                    here to demonstrate understanding of jQuery.
+                  </p>
+                  <p>
+                    Click{' '}
+                    <a href="https://github.com/thinkful-ei23/DavidF-bookmarks-app">
+                      here
+                    </a>{' '}
+                    to view the Github repository.
+                  </p>
+                </div>
+                <div className="project-image">
+                  <a href="https://thinkful-ei23.github.io/DavidF-bookmarks-app/">
+                    <img
+                      src={BookmarkApp}
+                      alt="Bookmark App"
+                      height="auto"
+                      width="75%"
+                    />
+                  </a>
+                  <p> Skill set: Javascript, jQuery, RESTful APIs</p>
+                </div>
               </li>
               <li>
-                <h4>Spanish App</h4>
-                <p>
-                  This is an app to help learn Spanish that utilizes a spaced
-                  repetition algorithm and a linked list data structure to
-                  repeat words that the user struggles with more often. There is
-                  a demo account available for the site. Username: DemoUser, and
-                  password: password12.
-                </p>
-                <p>
-                  Click{' '}
-                  <a href="https://github.com/thinkful-ei23/Spanish-Client-Alex-David">
-                    here
-                  </a>{' '}
-                  to view the Github repository for the front-end. Or{' '}
-                  <a href="https://github.com/thinkful-ei23/Spanish-Server-Alex-DavidF">
-                    here
-                  </a>{' '}
-                  for the back-end
-                </p>
-                <a href="https://spanish-app-client.herokuapp.com/">
-                  <img
-                    src={SpanishApp}
-                    alt="Spanish App"
-                    height="auto"
-                    width="75%"
-                  />
-                </a>
-                <p>
-                  {' '}
-                  Skill set: Javascript, Node.js, RESTful APIs, React, Redux,
-                  Express, Mongo/Mongoose, Bcrypt/Passport, Responsivevoice.org
-                </p>
+                <div className="project-text">
+                  <h4>Spanish App</h4>
+                  <p>
+                    This is an app to help learn Spanish that utilizes a spaced
+                    repetition algorithm and a linked list data structure to
+                    repeat words that the user struggles with more often. There
+                    is a demo account available for the site. Username:
+                    DemoUser, and password: password12.
+                  </p>
+                  <p>
+                    Click{' '}
+                    <a href="https://github.com/thinkful-ei23/Spanish-Client-Alex-David">
+                      here
+                    </a>{' '}
+                    to view the Github repository for the front-end. Or{' '}
+                    <a href="https://github.com/thinkful-ei23/Spanish-Server-Alex-DavidF">
+                      here
+                    </a>{' '}
+                    for the back-end
+                  </p>
+                </div>
+                <div className="project-image">
+                  <a href="https://spanish-app-client.herokuapp.com/">
+                    <img
+                      src={SpanishApp}
+                      alt="Spanish App"
+                      height="auto"
+                      width="75%"
+                    />
+                  </a>
+                  <p>
+                    {' '}
+                    Skill set: Javascript, Node.js, RESTful APIs, React, Redux,
+                    Express, Mongo/Mongoose, Bcrypt/Passport,
+                    Responsivevoice.org
+                  </p>
+                </div>
               </li>
             </ul>
           </section>
