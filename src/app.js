@@ -380,6 +380,9 @@ export default class App extends React.Component {
             </p>
           </section>
         </div>
+        <section>
+          <small>Copyright &copy;2018 David Folks</small>
+        </section>
       </main>
     );
   }
