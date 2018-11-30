@@ -60,23 +60,28 @@ export default class App extends React.Component {
                     'password12'.
                   </p>
                   <p>
-                    Click{' '}
+                    Interesting challenges and lessons taken from this project
+                    include: autofilling the dropdown search functionality,
+                    utilization of overflow containers
+                  </p>
+                  <p>
+                    Open{' '}
                     <a
                       href="https://github.com/thinkful-ei23/GoSeeThis-Client"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      here
+                      Github
                     </a>{' '}
-                    to view the Github repository for the front-end. Or{' '}
+                    to view the repository for the front-end. Or for the{' '}
                     <a
                       href="https://github.com/thinkful-ei23/GoSeeThis-server"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      here
-                    </a>{' '}
-                    for the back-end
+                      back-end
+                    </a>
+                    .
                   </p>
                 </div>
                 <div className="project-image">
@@ -113,23 +118,29 @@ export default class App extends React.Component {
                     and being added.
                   </p>
                   <p>
-                    Click{' '}
+                    Interesting challenges and lessons taken from this project
+                    include: working with nested objects using React and Redux,
+                    and utilizing recursion to build the paths to the correct
+                    place in said nested objects.
+                  </p>
+                  <p>
+                    Open{' '}
                     <a
                       href="https://github.com/DFolks/cod-character-client"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      here
+                      Github
                     </a>{' '}
-                    to view the Github repository for the front-end. Or{' '}
+                    to view the repository for the front-end. Or for the{' '}
                     <a
                       href="https://github.com/DFolks/cod-character-server"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      here
-                    </a>{' '}
-                    for the back-end
+                      back-end
+                    </a>
+                    .
                   </p>
                 </div>
                 <div className="project-image">
@@ -163,15 +174,19 @@ export default class App extends React.Component {
                     here to demonstrate understanding of jQuery.
                   </p>
                   <p>
-                    Click{' '}
+                    Interesting challenges and lessons taken from this project
+                    include: Utilizing a store and using CRUD to manipulate it.
+                  </p>
+                  <p>
+                    Open{' '}
                     <a
                       href="https://github.com/thinkful-ei23/DavidF-bookmarks-app"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      here
+                      Github
                     </a>{' '}
-                    to view the Github repository.
+                    to view the repository.
                   </p>
                 </div>
                 <div className="project-image">
@@ -201,23 +216,30 @@ export default class App extends React.Component {
                     DemoUser, and password: password12.
                   </p>
                   <p>
-                    Click{' '}
+                    Interesting challenges and lessons taken from this project
+                    include: utilizing a linked list data structure and
+                    constructing an algorithm to reflect spaced repetition
+                    theory, as well as utilizing a text to speech pattern to add
+                    the audio element to the project.
+                  </p>
+                  <p>
+                    Open{' '}
                     <a
                       href="https://github.com/thinkful-ei23/Spanish-Client-Alex-David"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      here
+                      Github
                     </a>{' '}
-                    to view the Github repository for the front-end. Or{' '}
+                    to view the repository for the front-end. Or for the{' '}
                     <a
                       href="https://github.com/thinkful-ei23/Spanish-Server-Alex-DavidF"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
-                      here
-                    </a>{' '}
-                    for the back-end
+                      back-end
+                    </a>
+                    .
                   </p>
                 </div>
                 <div className="project-image">
@@ -343,7 +365,7 @@ export default class App extends React.Component {
               that keeps me having to learn and push myself to adapt and evolve.
               It gives an opportunity for me to be creative and to come up with
               real solutions that can help people. I get to work with other
-              developers and both learn from and help them progress.
+              great developers as part of a team.
             </p>
             <p>
               Outside of work I enjoy writing stories, creating imaginative
