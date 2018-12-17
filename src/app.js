@@ -2,7 +2,7 @@ import React from 'react';
 import CoDApp from './img/CoDApp.jpg';
 import BookmarkApp from './img/BookmarkApp.png';
 import GoSeeThis from './img/GoSeeThis.jpg';
-import SpanishApp from './img/SpanishApp.png';
+import SpanishApp from './img/SpanishApp.jpg';
 import { SocialIcon } from 'react-social-icons';
 
 import './app.css';
@@ -165,6 +165,64 @@ export default class App extends React.Component {
               </li>
               <li>
                 <div className="project-text">
+                  <h3>Speak Spanish</h3>
+                  <p>
+                    This is an app to help learn Spanish that utilizes a spaced
+                    repetition algorithm and a linked list data structure to
+                    repeat words that the user struggles with more often. There
+                    is a demo account available for the site. Username:
+                    DemoUser, and password: password12.
+                  </p>
+                  <p>
+                    Interesting challenges and lessons taken from this project
+                    include: utilizing a linked list data structure and
+                    constructing an algorithm to reflect spaced repetition
+                    theory, as well as utilizing a text to speech pattern to add
+                    the audio element to the project.
+                  </p>
+                  <p>
+                    Open{' '}
+                    <a
+                      href="https://github.com/DFolks/speak-spanish-client"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      Github
+                    </a>{' '}
+                    to view the repository for the front-end. Or for the{' '}
+                    <a
+                      href="https://github.com/DFolks/speak-spanish-server"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      back-end
+                    </a>
+                    .
+                  </p>
+                </div>
+                <div className="project-image">
+                  <a
+                    href="https://speak-spanish-client.herokuapp.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      src={SpanishApp}
+                      alt="Spanish App"
+                      height="auto"
+                      width="75%"
+                    />
+                  </a>
+                  <p>
+                    {' '}
+                    Skill set: Javascript, Node.js, RESTful APIs, React, Redux,
+                    Express, Mongo/Mongoose, Bcrypt/Passport,
+                    Responsivevoice.org
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div className="project-text">
                   <h3>Bookmark App</h3>
                   <p>
                     This bookmark app is designed to bookmark web pages while
@@ -203,64 +261,6 @@ export default class App extends React.Component {
                     />
                   </a>
                   <p> Skill set: Javascript, jQuery, RESTful APIs</p>
-                </div>
-              </li>
-              <li>
-                <div className="project-text">
-                  <h3>Spanish App</h3>
-                  <p>
-                    This is an app to help learn Spanish that utilizes a spaced
-                    repetition algorithm and a linked list data structure to
-                    repeat words that the user struggles with more often. There
-                    is a demo account available for the site. Username:
-                    DemoUser, and password: password12.
-                  </p>
-                  <p>
-                    Interesting challenges and lessons taken from this project
-                    include: utilizing a linked list data structure and
-                    constructing an algorithm to reflect spaced repetition
-                    theory, as well as utilizing a text to speech pattern to add
-                    the audio element to the project.
-                  </p>
-                  <p>
-                    Open{' '}
-                    <a
-                      href="https://github.com/thinkful-ei23/Spanish-Client-Alex-David"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      Github
-                    </a>{' '}
-                    to view the repository for the front-end. Or for the{' '}
-                    <a
-                      href="https://github.com/thinkful-ei23/Spanish-Server-Alex-DavidF"
-                      rel="noopener noreferrer"
-                      target="_blank"
-                    >
-                      back-end
-                    </a>
-                    .
-                  </p>
-                </div>
-                <div className="project-image">
-                  <a
-                    href="https://spanish-app-client.herokuapp.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <img
-                      src={SpanishApp}
-                      alt="Spanish App"
-                      height="auto"
-                      width="75%"
-                    />
-                  </a>
-                  <p>
-                    {' '}
-                    Skill set: Javascript, Node.js, RESTful APIs, React, Redux,
-                    Express, Mongo/Mongoose, Bcrypt/Passport,
-                    Responsivevoice.org
-                  </p>
                 </div>
               </li>
             </ul>
